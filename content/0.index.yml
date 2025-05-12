@@ -1,4 +1,4 @@
-title: Build your SaaS with Nuxt UI Pro
+title: Build your SaaS with Nuxt UI Prot
 description: Nuxt UI Pro is a collection of premium Vue components built on top of Nuxt UI to create beautiful & responsive Nuxt applications in minutes. It includes all primitives to build landing pages, documentations, blogs, dashboards or entire SaaS products.
 seo:
   title: Nuxt UI Pro - SaaS template
@@ -12,13 +12,16 @@ hero:
       to: https://ui.nuxt.com/getting-started/installation/pro/nuxt
       target: _blank
       size: xl
+      color: success
+      variant: outline
     - label: Use this template
-      icon: i-simple-icons-github
+      icon: i-material-symbols-accessible
       size: xl
-      color: neutral
-      variant: subtle
+      color: info
+      variant: soft
       to: https://github.com/nuxt-ui-pro/saas
       target: _blank
+      trailing: false
 sections:
   - title: Enterprise-Grade Solutions
     description: Transform your business with our comprehensive suite of tools. Built for scale, security, and seamless integration, our platform empowers teams to achieve more while maintaining complete control.
@@ -34,6 +37,7 @@ sections:
       - name: Bank-Level Security
         description: SOC 2 Type II certified with end-to-end encryption and advanced threat detection.
         icon: i-lucide-lock
+    reverse: false
   - title: Optimized for Growth
     description: Scale your business confidently with our enterprise-ready platform. From startups to Fortune 500 companies, we provide the tools and support you need to succeed.
     orientation: horizontal
@@ -48,13 +52,14 @@ sections:
       - name: Infinite Scale
         description: Auto-scaling architecture handles millions of requests without breaking a sweat.
         icon: i-lucide-chart-bar
+  - {}
 features:
   title: Features That Set Us Apart
   description: Our platform combines enterprise-grade reliability with developer-friendly features, providing everything you need to build and scale your applications.
   items:
     - title: Developer Experience
       description: Comprehensive documentation, powerful CLI tools, and intuitive APIs that make development a joy.
-      icon: i-lucide-cog
+      icon: i-material-symbols-3d-rotation-rounded
     - title: Enterprise Ready
       description: SOC 2 Type II certified, GDPR compliant, with 24/7 enterprise support and dedicated success managers.
       icon: i-lucide-check

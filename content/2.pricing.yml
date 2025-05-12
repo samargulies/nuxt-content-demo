@@ -31,6 +31,10 @@ plans:
     scale: true
     button:
       label: Get Started
+      size: xl
+      trailing: false
+      icon: i-material-symbols-accessibility
+      color: warning
     features:
       - 10 GB Storage
       - 10 Email Accounts
@@ -39,6 +43,7 @@ plans:
       - 10 Databases
       - 10 SSL Certificates
       - 10 Support Tickets
+      - Test
   - title: Premium
     description: A premium plan for large teams.
     price:
@@ -73,6 +78,7 @@ faq:
       defaultOpen: true
     - label: How can I cancel my subscription?
       content: Consectetur irure Lorem nostrud adipisicing aliqua mollit Lorem sit officia magna eiusmod cupidatat.
+      defaultOpen: true
     - label: How does the free trial work?
       content: Quis officia commodo magna eu qui aliquip duis.
     - label: Can I switch plans later?
